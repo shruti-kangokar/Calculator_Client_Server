@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+       <link rel='stylesheet' href='/stylesheets/style.css' />
+       <script></script>
+  </head>
+  <body>
+   
+    
+ <form  name = "test" method = "post" action = "calculate">
+Number1:<input type ="text" name = "n1"><br>
+Select the Operation: 
+<br><input type="radio" name="operator", value="Add">Add<br>
+						<input type="radio" name="operator", value="Sub">Sub<br>
+						<input type="radio" name="operator", value="Mul">Multiply<br>
+						<input type="radio" name="operator", value="Div">Divide<br>
+						
+Number2:<input type ="text" name = "n2"><br>
+<input type = "submit" value ="Calculate">
+
+</form>
+<br>
+<br>
+    
+   <p><%= oper1 %> <%= oper %> <%= oper2 %> <%= answer %> </p>
+   
+   <p> <%= err %> </p> 
+    
+    
+  </body>
+</html>
